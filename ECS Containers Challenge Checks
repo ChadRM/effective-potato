@@ -1,0 +1,58 @@
+ECS Containers Challenge Checks
+	 April's co-worker suddenly leaves the company. Her co-worker Jeff, being responsible for all the companies micro services and build-pipelines, has been over using resources, like virtual machines for small micro services. April receives word she is to now manage her growing companies services and micro services CI/CD pipelines and infrastructure, without any help. Knowing what she has learning at Cloud Assessments about containers, and being the only one tasked  to manage the companies application services,  April decides to containerize the companies main Rails App and deploy to AWS ECS. 
+
+	 Her boss says that she'll be bonused on savings of the platform and improvements to the scalability.
+
+
+
+
+  Scenario 1a: Dockerize a rails app
+  	Checks:
+  		Was the container built today?
+  		Does the back end rails app respond?
+
+  Scenario 1b: Dockerize a PHP app
+  	Checks:
+  		Was the container built today?
+  		Does the back end php app respond?
+
+
+  Scenario 1c: Dockerize a node.hs app
+  	Checks:
+  		Was the container built today?
+  		Does the back end node.js app respond?
+
+  Scenario 1d: Dockerize a python app
+  	Checks:
+  		Was the container built today?
+  		Does the app respond?
+
+  Scenario 2: Congifure ECS Container Registry and Upload the Dockerized App
+  	Checks:
+  		Was the repo built today?
+  		Does the repo have appropriate permissions set?
+  		Has the appropriate docker image been added to the repo?
+
+  Scenario 3: Install ECS Agent and Create Container Instances
+  	Checks:
+  		Was the image built today?
+  		Does it contain the ECS Log Agent installed and functioning?
+
+  Scenario 4: Providing persistent volumes
+  	Checks:
+  		Was the volume created today?
+  		Does it have the appropriate files?
+
+  Scenario 5: Managing Secrets
+  	Checks:
+  		**Chad TODO://learn secrets management re: rds
+  		ECS Systems Manager Parameter Store?
+
+  Scenario 6: Set Up Montitoring // and testing?
+  	Checks:
+
+  Scenario 7: Configure Auto Scaling
+  	Container special consideration -> auto clean up old docker images
+
+
+  Scenario N: Capstone -- EVERYTHING in One!
