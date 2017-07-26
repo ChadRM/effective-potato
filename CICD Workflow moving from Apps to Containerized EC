@@ -1,0 +1,6 @@
+CICD Workflow moving from Apps to Containerized ECS
+
+1) Dockerize apps.
+2) Deploy containers with apps (secrets)
+3) Configure db/external services (secrets)
+http://www.distractify.com/lol/2017/07/16/ZgmMco/mom-accidentally-orders-disturb

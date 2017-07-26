@@ -4,8 +4,6 @@ ECS Containers Challenge Checks
 	 Her boss says that she'll be bonused on savings of the platform and improvements to the scalability.
 
 
-
-
   Scenario 1a: Dockerize a rails app
   	Checks:
   		Was the container built today?
@@ -16,8 +14,7 @@ ECS Containers Challenge Checks
   		Was the container built today?
   		Does the back end php app respond?
 
-
-  Scenario 1c: Dockerize a node.hs app
+  Scenario 1c: Dockerize a node.js app
   	Checks:
   		Was the container built today?
   		Does the back end node.js app respond?
@@ -45,14 +42,26 @@ ECS Containers Challenge Checks
 
   Scenario 5: Managing Secrets
   	Checks:
-  		**Chad TODO://learn secrets management re: rds
   		ECS Systems Manager Parameter Store?
+      Appropriate environment variables set in the container?
 
   Scenario 6: Set Up Montitoring // and testing?
   	Checks:
+      Is there monitoring data from today from the container?
 
   Scenario 7: Configure Auto Scaling
   	Container special consideration -> auto clean up old docker images
-
+    // Can we put load on labs to see if things will auto-scale?
+      Checks:
+        If we CAN put load on the labs, then do it and see if stuff autoscales
+        if not, then we should check the conditions set up
 
   Scenario N: Capstone -- EVERYTHING in One!
+    Take an app, dockerize it, build the image with ECS agent, build a registry, put the image in the registry, set up secrets & db?, 
+    auto scale it!
+
+Needs:
+  * Sample application(s) in initial non-dockerized state
+  * Same app(s) in docker image(s) (unless we want students to roll their own)
+  * simple db schema
+
