@@ -7,7 +7,7 @@ General GIT repository to practice using GIT
 Trying again to learn GIT using a public repo.
 Making a few changes to the file.
 
-I'm going to write something, -*THIS IS A BUG*-
-which is mostly just fine.
+I'm going to write something,
+which is just fine.
 
 End of Line.
